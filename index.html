@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+	<section class="wrap">
+		<!-- 头部区域 -->
+		<header>黑马面面</header>
+		<nav class="nav">
+			<a href="" class="item"><img src="icons/icon1.png" alt=""><span>HR面试</span></a>
+			<a href="" class="item"><img src="icons/icon2.png" alt=""><span>HR面试</span></a>
+			<a href="" class="item"><img src="icons/icon3.png" alt=""><span>HR面试</span></a>
+			<a href="" class="item"><img src="icons/icon4.png" alt=""><span>HR面试</span></a>
+			<a href="" class="item"><img src="icons/icon5.png" alt=""><span>HR面试</span></a>
+			<a href="" class="item"><img src="icons/icon6.png" alt=""><span>HR面试</span></a>
+		</nav>
+		<!-- go模块 -->
+		<img src="images/go.png" alt="" class="go">
+	</section>
+	<!-- 就业指导模块 -->
+	<section class="content">
+		<div class="con-hd">
+			<h4>
+				<img src="icons/i2.png" alt="">
+				就业指导
+			</h4>
+			<a href="" class="more">更多>></a>
+		</div>
+		<!-- 旋转木马案例 -->
+		<div class="get_job_focus"><!-- Swiper -->
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href=""><img src="images/pic.png" alt=""></a>
+						<p>老师教你应对面试技巧</p>
+					</div>
+					<div class="swiper-slide">
+						<a href=""><img src="images/pic1.png" alt=""></a>
+						<p>老师教你应对面试技巧</p>
+					</div>
+					<div class="swiper-slide">
+						<a href=""><img src="images/pic2.png" alt=""></a>
+						<p>老师教你应对面试技巧</p>
+					</div>
+					<div class="swiper-slide">
+						<a href=""><img src="images/pic2.png" alt=""></a>
+						<p>老师教你应对面试技巧</p>
+					</div>
+					<div class="swiper-slide">
+						<a href=""><img src="images/pic2.png" alt=""></a>
+						<p>老师教你应对面试技巧</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="swiper-button-prev"></div><!--左箭头。如果放置在swiper外面，需要自定义样式。-->
+			<div class="swiper-button-next"></div><!--右箭头。如果放置在swiper外面，需要自定义样式。-->
+
+
+
+		</div>
+	</section>
+	<section class="content">
+		<div class="con-hd">
+			<h4>
+				<img src="icons/i1.png" alt="">
+				充电学习
+			</h4>
+			<a href="" class="more">更多>></a>
+		</div>
+		<div class="get_focus">
+			<div class="mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href=""><img src="images/pic1.png" alt=""></a>
+						<h4>说地道英语，告别中式英语</h4>
+						<p><span>151</span>人正在学习</p>
+					</div>
+					<div class="swiper-slide">
+						<a href=""><img src="images/pic1.png" alt=""></a>
+						<h4>说地道英语，告别中式英语</h4>
+						<p><span>151</span>人正在学习</p>
+					</div>
+					<div class="swiper-slide">
+						<a href=""><img src="images/pic1.png" alt=""></a>
+						<h4>说地道英语，告别中式英语</h4>
+						<p><span>151</span>人正在学习</p>
+					</div>
+					<div class="swiper-slide">
+						<a href=""><img src="images/pic1.png" alt=""></a>
+						<h4>说地道英语，告别中式英语</h4>
+						<p><span>151</span>人正在学习</p>
+					</div>
+					<div class="swiper-slide">
+						<a href=""><img src="images/pic1.png" alt=""></a>
+						<h4>说地道英语，告别中式英语</h4>
+						<p><span>151</span>人正在学习</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Swiper JS -->
+			<script src="js/swiper-bundle.min.js"></script>
+
+		</div>
+		<script>
+			(function () {
+				var swiper = new Swiper('.swiper', {
+					slidesPerView: 2,
+					spaceBetween: 30,
+					centeredSlides: true,
+					loop: true,
+					navigation: {
+						nextEl: '.swiper-button-next',
+						prevEl: '.swiper-button-prev',
+					},
+				});
+			})();
+			(function () {
+				var swiper = new Swiper(".mySwiper", {
+					slidesPerView: 2.3,
+					spaceBetween: 20,
+					loop: true,
+				});
+			})();
+		</script>
+	</section>
+	<footer>
+		<a href="" class="item">
+			<img src="icons/home.png" alt="">
+			<p>首页</p>
+		</a>
+		<a href="" class="item">
+			<img src="icons/net.png" alt="">
+			<p>首页</p>
+		</a>
+		<a href="" class="item">
+			<img src="icons/ms.png" alt="">
+			<p>首页</p>
+		</a>
+		<a href="" class="item">
+			<img src="icons/user.png" alt="">
+			<p>首页</p>
+		</a>
+	</footer>
+	<script src="js/flexible.js"></script>
+	<script src="js/swiper.js"></script>
+</body>
+
+</html>
